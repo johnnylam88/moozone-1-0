@@ -1,0 +1,15 @@
+## Interface: 80000
+## Version: @project-version@
+
+## Title: MooZone-1.0
+## Notes: Library to provide information about the type of zone in which your character is located.
+
+## Author: Johnny C. Lam
+## X-Category: Library
+## X-License: BSD License
+## X-Website: https://github.com/ultijlam/MooZone.toc
+
+## OptionalDependencies: LibStub, CallbackHandler-1.0
+
+embeds.xml
+MooZone-1.0.xml
