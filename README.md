@@ -7,7 +7,7 @@ Overview
 API Methods
 -----------
 
-### <a name="getzone"></a>GetZone
+### [GetZone](#getzone)
 
 Returns the type of zone your character is currenty in.
 
