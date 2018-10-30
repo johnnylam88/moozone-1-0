@@ -8,6 +8,7 @@
 ## X-Category: Library
 ## X-License: BSD License
 ## X-Website: https://github.com/ultijlam/MooZone.toc
+## X-Curse-Project-ID: 306066
 
 ## OptionalDependencies: LibStub, CallbackHandler-1.0
 
