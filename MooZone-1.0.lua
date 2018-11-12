@@ -36,8 +36,8 @@ local NORMAL_FONT_COLOR_CODE = NORMAL_FONT_COLOR_CODE
 
 local isAddon = GetAddOnMetadata(MAJOR, "Version")
 
-local DEBUG_LEVEL = isAddon and 6 or 0
-local DEBUG_FRAME = ChatFrame1
+local DEBUG_LEVEL = isAddon and 2 or 0
+local DEBUG_FRAME = ChatFrame3
 
 local function debug(level, text, ...)
 	if level <= DEBUG_LEVEL then
@@ -189,7 +189,7 @@ local function UpdateZone(self, event)
 		end
 	end
 	if zone ~= newZone then
-		debug(3, "UpdateZone", event, zone, newZone)
+		debug(2, "MooZone_ZoneChanged", zone, newZone)
 		lib.callbacks:Fire("MooZone_ZoneChanged", zone, newZone)
 		zone = newZone
 	end
