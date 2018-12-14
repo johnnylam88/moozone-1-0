@@ -3,7 +3,7 @@
     See the file LICENSE.txt for copying permission.
 --]]--------------------------------------------------------------------
 
-local MAJOR, MINOR = "MooZone-1.0", 1
+local MAJOR, MINOR = "MooZone-1.0", 2
 assert(LibStub, MAJOR .. " requires LibStub")
 assert(LibStub("CallbackHandler-1.0", true), MAJOR .. " requires CallbackHandler-1.0")
 local lib, oldminor = LibStub:NewLibrary(MAJOR, MINOR)
